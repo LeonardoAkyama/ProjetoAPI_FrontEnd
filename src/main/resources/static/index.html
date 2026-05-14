@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Controle de Projetos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Controle de Projetos</h1>
+
+    <div class="formulario">
+
+        <input type="text" id="descricao" placeholder="Descrição do Projeto">
+
+        <label>Data Início</label>
+        <input type="date" id="dataInicio">
+
+        <label>Data Fim</label>
+        <input type="date" id="dataFim">
+
+        <button onclick="cadastrarProjeto()">
+            Cadastrar Projeto
+        </button>
+
+    </div>
+
+    <hr>
+
+    <h2>Projetos Cadastrados</h2>
+
+    <div id="listaProjetos"></div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
